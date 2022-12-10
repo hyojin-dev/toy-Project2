@@ -46,7 +46,7 @@ dependencies {
     implementation 'io.jsonwebtoken:jjwt:0.9.1'
     implementation group: 'org.json', name: 'json', version: '20160810'
 
-    // queryDsl
+    // QueryDsl
     implementation "com.querydsl:querydsl-jpa:${queryDslVersion}"
     implementation "com.querydsl:querydsl-apt:${queryDslVersion}"
     implementation "com.querydsl:querydsl-core:${queryDslVersion}"
@@ -58,10 +58,14 @@ dependencies {
     implementation 'org.webjars:stomp-websocket:2.3.3'
     implementation group: 'org.webjars', name: 'stomp-websocket', version: '2.3.3-1'
 
-    // AWS 연동
+    // Junit 5
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.1.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.1.0'
+
+    // AWS
     implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-aws', version: '2.2.6.RELEASE'
 
-    // API 문서 자동화, Swagger
+    // Swagger
     implementation 'org.springdoc:springdoc-openapi-ui:1.6.6'
 
     // HtmlCharacterEscapes
