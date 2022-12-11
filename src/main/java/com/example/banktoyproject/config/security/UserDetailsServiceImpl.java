@@ -1,6 +1,6 @@
 package com.example.banktoyproject.config.security;
 
-import com.example.banktoyproject.domain.User;
+import com.example.banktoyproject.entity.User;
 import com.example.banktoyproject.repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;

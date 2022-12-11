@@ -1,4 +1,4 @@
-package com.example.banktoyproject.domain;
+package com.example.banktoyproject.entity;
 
 import com.example.banktoyproject.config.Timestamped.Timestamped;
 import com.fasterxml.jackson.annotation.JsonIgnore;

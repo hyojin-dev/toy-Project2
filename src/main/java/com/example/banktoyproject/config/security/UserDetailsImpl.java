@@ -1,6 +1,6 @@
 package com.example.banktoyproject.config.security;
 
-import com.example.banktoyproject.domain.User;
+import com.example.banktoyproject.entity.User;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
