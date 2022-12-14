@@ -1,1 +1,1 @@
-# toy-Project2
+# Spring Batch 연습용 프로젝트 입니다.
