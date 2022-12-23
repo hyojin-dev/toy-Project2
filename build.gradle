@@ -32,19 +32,22 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
     implementation 'org.springframework.boot:spring-boot-starter-security'
     implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
-    implementation 'com.abdulradi:nullable-core_3.0.0-RC2:0.3.0'
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
     implementation 'org.projectlombok:lombok:1.18.20'
-    compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
-    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
-    runtimeOnly 'mysql:mysql-connector-java'
+    compileOnly 'org.projectlombok:lombok'
     implementation 'io.jsonwebtoken:jjwt:0.9.1'
+    implementation 'com.abdulradi:nullable-core_3.0.0-RC2:0.3.0'
     implementation group: 'org.json', name: 'json', version: '20160810'
     runtimeOnly 'com.h2database:h2'
+    runtimeOnly 'mysql:mysql-connector-java'
 
     // Elastic Search
     implementation 'org.springframework.data:spring-data-elasticsearch:4.2.2'
+
+    // Open csv
+    implementation group: 'com.opencsv', name: 'opencsv', version: '5.4'
 
     // QueryDsl
     implementation "com.querydsl:querydsl-jpa:${queryDslVersion}"
