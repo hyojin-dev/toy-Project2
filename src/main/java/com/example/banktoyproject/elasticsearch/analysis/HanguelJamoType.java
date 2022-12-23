@@ -1,4 +1,4 @@
-package com.example.banktoyproject.analysis;
+package com.example.banktoyproject.elasticsearch.analysis;
 
 /**
  * Created 15. 11. 19..
