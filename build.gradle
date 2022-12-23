@@ -49,6 +49,10 @@ dependencies {
     // Open csv
     implementation group: 'com.opencsv', name: 'opencsv', version: '5.4'
 
+    // Jackson
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.12.3'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databine', version: '2.12.3'
+
     // QueryDsl
     implementation "com.querydsl:querydsl-jpa:${queryDslVersion}"
     implementation "com.querydsl:querydsl-apt:${queryDslVersion}"
