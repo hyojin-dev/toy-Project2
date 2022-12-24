@@ -32,9 +32,9 @@ public class BankToyProjectApplication {
 
     public static void executeSubwayPipeline() {
         try {
-            readSubwayCsvFile(); // data 읽어오기
-            translateSubwayDocuments(); // 필요한 형태의 데이터로 변환
-            generateSubwayFlatFile(); // flatFile 생성
+            readSubwayCsvFile();
+            translateSubwayDocuments();
+            generateSubwayFlatFile();
         } catch (Exception e) {
             e.printStackTrace();
         }
