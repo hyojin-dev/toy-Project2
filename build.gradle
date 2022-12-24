@@ -24,6 +24,8 @@ configurations {
 }
 
 repositories {
+    google()
+    jcenter()
     mavenCentral()
 }
 
@@ -46,12 +48,13 @@ dependencies {
     // Elastic Search
     implementation 'org.springframework.data:spring-data-elasticsearch:4.2.2'
 
-    // Open csv
-    implementation group: 'com.opencsv', name: 'opencsv', version: '5.4'
+    // Open CSV
+    implementation 'com.opencsv:opencsv:5.5'
+//    implementation group: 'com.opencsv', name: 'opencsv', version: '5.4'
 
     // Jackson
     implementation group: 'com.fasterxml.jackson.core', name: 'jackson-core', version: '2.12.3'
-    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databine', version: '2.12.3'
+    implementation group: 'com.fasterxml.jackson.core', name: 'jackson-databind', version: '2.12.3'
 
     // QueryDsl
     implementation "com.querydsl:querydsl-jpa:${queryDslVersion}"
