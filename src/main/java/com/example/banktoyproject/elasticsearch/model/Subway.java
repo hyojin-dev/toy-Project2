@@ -17,8 +17,8 @@ public class Subway {
     private String line;
     @CsvBindByName
     private String excode;
-//
-//    private String chosung;
-//    private String jamo;
-//    private String engtokor;
+
+    private String chosung;
+    private String jamo;
+    private String engtokor;
 }
