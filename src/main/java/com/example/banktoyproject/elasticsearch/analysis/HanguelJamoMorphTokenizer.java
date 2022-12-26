@@ -76,7 +76,6 @@ public class HanguelJamoMorphTokenizer {
     각 index 정보는 CHOSUNG, JUNGSUNG, JONGSUNG char[]에 정의한 index 입니다.
     하지만 아래 코드에서는 원문이 필요 없기 때문에 합치기 위한 로직은 포함 되어 있지 않습니다.
     */
-
         switch (jamoType) {
             case "CHOSUNG":
                 jamo = chosungTokenizer(source);
@@ -282,7 +281,6 @@ public class HanguelJamoMorphTokenizer {
                 }
             }
         }
-
         return english;
     }
 }

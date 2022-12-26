@@ -107,7 +107,6 @@ public class BankToyProjectApplication {
             log.debug("수행시간 = " + (end - start) + "ms");
             log.debug("Total Generated Documents : {} " + subDocs.size());
         } catch (Exception e) {
-            System.out.println("error point2");
             e.printStackTrace();
         }
     }

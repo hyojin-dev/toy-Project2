@@ -21,7 +21,7 @@ public class User extends Timestamped {
     @Column(nullable = false)
     private String username;
 
-    @JsonIgnore // user 조회했을 때 json에서 안 뜨게 함
+    @JsonIgnore
     @Column(nullable = false)
     private String password;
 
