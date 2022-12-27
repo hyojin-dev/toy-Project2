@@ -80,7 +80,9 @@ public class BankToyProjectApplication {
         String index = "";
         String bulkDocTemplate =
                 "{\"index\": { \"_index\": \"subway\", \"_id\": \"_DOCID_\"}}\n" +
-                        "{\"id\": \"_CODE_\", \"station\": \"_STATION_\", \"line\": \"_LINE_\", \"excode\": \"_EXCODE_\", \"chosung\": \"_CHOSUNG_\", \"jamo\": \"_JAMO_\", \"engtokor\": \"_ENGTOKOR_\"}\n";
+                        "{\"id\": \"_CODE_\", \"station\": \"_STATION_\", \"line\": \"_LINE_\"," +
+                        " \"excode\": \"_EXCODE_\", \"chosung\": \"_CHOSUNG_\", \"jamo\": \"_JAMO_\"," +
+                        " \"engtokor\": \"_ENGTOKOR_\"}\n";
         String bulkDoc = "";
 
         try {
